@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import 'bootstrap/dist/css/bootstrap.min.css'; */
+
+/* .mail .langganan {
+    background-color: #e9b634;
+}
+.container-contact-form {
+    display: none;
+}
+.container-contact-form.active {
+    display: flex;
+} */
+
+@media only screen and (min-width: 1920px){
+    :root {
+        font-size: 1.1vw;
+    }
+}
+@media only screen and (min-height: 1080px){
+    :root {
+        font-size: 1.1vw;
+    }
+}
