@@ -31,13 +31,13 @@ use PHPUnit\TextUI\Command\ListTestSuitesCommand;
 
 Route::get('/dashboard',[dashboardController::class,'index'])->middleware('admin')->name('dashboard');
 
+Route::get('/login',[loginController::class,'index']);
+Route::post('/login',[loginController::class,'login'])->name('login');
+
+Route::post('/logout',[loginController::class,'logout'])->name('logout');
+
 Route::prefix('/')->group(function () {
     Route::get('/',[mainController::class,'index'])->name('main');
-    Route::get('/login',[loginController::class,'index']);
-    Route::post('/login',[loginController::class,'login'])->name('login');
-
-    Route::post('/logout',[loginController::class,'logout'])->name('logout');
-
     Route::get('/tentang-kami',[tentangKamiController::class,'tentangkami'])->name('tentang-kami');
     Route::get('/galeri',[galeriController::class,'galeri'])->name('galery');
     Route::get('/testimoni',[testimoniController::class,'testimoni'])->name('testimoni');

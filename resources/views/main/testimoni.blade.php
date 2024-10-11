@@ -11,7 +11,7 @@
         {{-- testimoni --}}
         <div class="testimonial flex flex-col w-full max-lg:mt-44">
             <div class="flex flex-col justify-center gap-2 lg:w-7/12 lg:m-20 mx-4">
-                <h1 class="text-3xl lg:text-[4.5rem] font-semibold ">Cerita Mereka, Inspirasi Anda untuk Perjalanan Suci
+                <h1 class="text-3xl lg:text-[4.5rem] font-semibold leading-tight">Cerita Mereka, Inspirasi Anda untuk Perjalanan Suci
                     ✨</h1>
                 <h1 class="text-xl lg:text-3xl mt-3 font-light lg:mt-10">Baca pengalaman nyata dari para jamaah yang telah
                     mempercayakan perjalanan ibadahnya kepada kami. Setiap testimonial adalah bukti dedikasi kami dalam

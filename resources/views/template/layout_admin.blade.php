@@ -16,12 +16,12 @@
         {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
 
     <link rel="stylesheet" crossorigin href="{{asset('assets/compiled/css/app.css')}}">
-    <link rel="stylesheet" crossorigin href="{{asset('assets/compiled/css/app-dark.css')}}">
+    {{-- <link rel="stylesheet" crossorigin href="{{asset('assets/compiled/css/app-dark.css')}}"> --}}
     <link rel="stylesheet" crossorigin href="{{ asset('assets/compiled/css/iconly.css')}}">
 </head>
 
 <body>
-    <script src="{{asset('assets/static/js/initTheme.js')}}"></script>
+    {{-- <script src="{{asset('assets/static/js/initTheme.js')}}"></script> --}}
     <div id="app">
         <div id="sidebar">
 
@@ -43,7 +43,7 @@
             </div>
         </div>
     </div>
-    <script src="{{ asset('assets/static/js/components/dark.js')}}"></script>
+    {{-- <script src="{{ asset('assets/static/js/components/dark.js')}}"></script> --}}
     <script src="{{ asset('assets/extensions/perfect-scrollbar/perfect-scrollbar.min.js')}}"></script>
 
 
@@ -52,7 +52,7 @@
 
 
     <!-- Need: Apexcharts -->
-    <script src="{{asset('assets/extensions/apexcharts/apexcharts.min.js')}}"></script>
+    {{-- <script src="{{asset('assets/extensions/apexcharts/apexcharts.min.js')}}"></script> --}}
     <script src="{{asset('assets/static/js/pages/dashboard.jsassets/static/js/pages/dashboard.js')}}"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 

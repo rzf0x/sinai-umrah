@@ -13,7 +13,7 @@
             <div class="flex flex-col justify-center w-full gap-2 lg:m-20 lg:mx-4 max-lg:px-2 text-center items-center">
                 <h1 class="lg:text-xl text-lg text-blue-800 w-fit px-4 rounded-3xl">Layanan & Pendaftaran
                 </h1>
-                <h1 class="text-3xl px-5 lg:px-0 lg:text-[3.5rem] font-semibold lg:w-5/12">Layanan Terbaik, Syarat Mudah, Pendaftaran
+                <h1 class="text-3xl px-5 lg:px-0 lg:text-[3rem] leading-tight font-semibold lg:w-5/12">Layanan Terbaik, Syarat Mudah, Pendaftaran
                     Cepat ✨
                 </h1>
                 <h1 class="text-lg lg:text-3xl font-light lg:mt-4 lg:w-6/12">Temukan layanan umrah terbaik kami, lihat

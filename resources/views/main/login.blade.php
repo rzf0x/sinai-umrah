@@ -7,17 +7,17 @@
             </div>
             <div class="flex flex-col items-center justify-center text-center md:mx-20">
                 <img src="{{ asset('aset/sinaii.svg') }}" alt="" class="lg:w-32 w-52 mb-4 object-cover">
-                <h1 class="text-5xl lg:text-5xl font-semibold">Hola, selamat pagi!</h1>
+                <h1 class="text-5xl lg:text-5xl font-semibold">Selamat datang 👋</h1>
                 <h1 class="text-xl lg:text-xl font-light mt-4 lg:mt-6 w-10/12 lg:w-8/12">
                     Sign In untuk mengelola dan memantau semua data jamaah serta layanan dengan mudah. Kelola operasional secara efisien dan aman melalui dashboard admin kami.
                 </h1>
                 <form action="{{ route('login') }}" method="POST" class="flex flex-col items-center lg:items-start lg:mt-6">
                     @csrf
                     <div>
-                        <label for="name" class="flex mt-2 text-2xl self-start font-light mb-2">Username</label>
-                        <input type="text" name="name"
+                        <label for="name" class="flex mt-2 text-2xl self-start font-light mb-2">Email</label>
+                        <input type="email" name="email"
                             class="text-2xl items-center w-[30rem] lg:w-[35rem] py-4 lg:py-4 lg:px-4 rounded-xl"
-                            placeholder="username">
+                            placeholder="email">
                     </div>
 
                     <div>

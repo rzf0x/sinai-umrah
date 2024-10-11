@@ -7,7 +7,6 @@ use Illuminate\Support\Facades\Auth;
 
 class loginController extends Controller
 {
-    //
     public function index()
     {
         return view('main.login');
@@ -16,16 +15,16 @@ class loginController extends Controller
     public function login(Request $request)
     {
         $request->validate([
-            'name' => 'required',
+            'email' => 'required',
             'password' => 'required',
         ]);
 
-        if (Auth::attempt([
-            'name' => $request->name,
-            'password' => $request->password,
-        ])) {
+        $credentials = $request->only('email', 'password');
+
+        if (Auth::attempt($credentials)) {
             return redirect()->intended('dashboard');
         }
+
         return back()->withErrors([
             'name' => 'username atau password kamu salah, silahkan coba lagi',
         ]);

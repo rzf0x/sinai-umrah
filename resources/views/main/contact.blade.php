@@ -12,7 +12,7 @@
         <div class="contact lg:mx-20">
             <div class="contact-header flex flex-col w-full justify-center items-center max-lg:mt-44">
                 <div class="flex flex-col justify-center w-full gap-2 lg:m-20 mx-4 text-center items-center">
-                    <h1 class="text-3xl px-5 lg:text-[4.5rem] font-semibold lg:w-7/12">Masih ragu? Kita ngobrol bareng yuk.
+                    <h1 class="text-3xl px-5 lg:text-[4.5rem] font-semibold lg:w-7/12 leading-tight">Masih ragu? Kita ngobrol bareng yuk.
                     </h1>
                     <h1 class="text-lg px-5 lg:text-3xl font-light lg:mt-4 lg:w-8/12">Kita bahas semua yang perlu kamu ketahui,
                         dari paket yang paling cocok hingga detail perjalanan yang akan membuatmu merasa lebih siap.</h1>

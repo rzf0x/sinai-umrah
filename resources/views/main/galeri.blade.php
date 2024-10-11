@@ -11,7 +11,7 @@
         {{-- galeri --}}
         <div class="galeri flex flex-col w-full max-lg:mt-44">
             <div class="flex flex-col justify-center gap-2 lg:w-7/12 lg:m-20 mx-4">
-                <h1 class="text-3xl lg:text-[4.5rem] font-semibold ">Ciptakan momen dalam perjalanan ibadah anda 📸 </h1>
+                <h1 class="text-3xl lg:text-[4.5rem] font-semibold leading-tight">Ciptakan momen dalam perjalanan ibadah anda 📸 </h1>
                 <h1 class="text-lg lg:text-3xl font-light lg:mt-10">Lihat koleksi momen berharga para jamaah yang telah
                     menjalani perjalanan spiritual bersama Sinai Umrah. Setiap gambar menyimpan cerita, doa, dan
                     kebahagiaan.</h1>

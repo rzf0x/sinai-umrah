@@ -24,7 +24,7 @@
                 <h1 class="lg:text-xl text-medium text-blue-800 w-fit py-2 px-4 rounded-3xl bg-blue-100">Dedikasi Kami,
                     Ibadah Anda ✨
                 </h1>
-                <h1 class="text-3xl my-2 lg:text-[4rem] font-semibold items-center lg:w-5/6 w-full">Kami memastikan setiap
+                <h1 class="text-3xl my-2 lg:text-[4rem] font-semibold items-center lg:w-5/6 leading-tight w-full">Kami memastikan setiap
                     langkah
                     ibadah Anda penuh kenyamanan dan keberkahan.</h1>
                 <div class="flex lg:pt-32">
